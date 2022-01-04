@@ -92,7 +92,7 @@ p{
 
 #expborder{
     border-left: 8px solid;
-   border-image: linear-gradient(#4c2c58, #a044ff);
+   border-image: linear-gradient(#e70582, #f196d6);
    border-image-slice: 30;
 }
 
