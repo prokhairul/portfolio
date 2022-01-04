@@ -4,6 +4,9 @@ body{
     margin: 0;
 }
 
+/* fontpage Design Start */
+
+
 h1{
     font-size: 50px;
 }
@@ -12,7 +15,7 @@ h1{
     color: #2F80ED;
 }
 
-section{
+.flexcontainer{
     display: flex;
 }
 
@@ -34,12 +37,12 @@ section{
     padding: 10px 40px;
     border-radius: 7px;
     color: white;
-    font-weight: 700;
+    font-weight: 600;
 }
 
 p{
     margin-bottom: 25px;
-    text-align: justify;
+    margin-right: 85px;
 }
 
 .img-style{
@@ -51,3 +54,40 @@ p{
     background-image: url(img/top-banner.png);
     background-repeat: no-repeat;
 }
+
+.db{
+    background-image: url(img/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+/* Fontpage Design End */
+
+
+/* 2nd Page Design Start */
+
+.half-width{
+    width: 40%;
+    padding-left: 40px;
+    box-shadow: 10px 10px 40px gray;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 10px;
+    padding-bottom: 40px;
+    margin-top: 20px;
+
+}
+
+.exp{
+    background-image: url(img/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-position-y: 190px;
+    background-size: 120px;
+
+}
+
+
+
+/* 2nd Page Design End */
+
